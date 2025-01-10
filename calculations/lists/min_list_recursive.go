@@ -5,7 +5,13 @@ package lists
 // ZUSATZBEDINGUNG: Diese Funktion darf keine Schleife verwenden.
 func MinListRecursive(nums []int) int {
 	// TODO
-	return 0
+	
+	nums = MinListRecursive(nums []int){
+
+		nums > 0
+	}
+
+	return nums
 }
 
 // REMARKS
