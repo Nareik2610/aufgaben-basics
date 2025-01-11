@@ -12,7 +12,7 @@ func DrawEmptyTriangle(length int) {
 	// TODO
 	for row := 0; row < length; row++ {
 		for col := 0; col <= row; col++ {
-			if row == 0 || row == length-1 || col == 0 || col == length-1 {
+			if row == length-1 || col == 0 || row == col {
 				fmt.Print("#")
 			} else {
 				fmt.Print(" ")
