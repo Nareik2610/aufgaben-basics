@@ -5,6 +5,9 @@ package strings
 // enthält, aber nicht unbedingt in der gleichen Reihenfolge.
 func IsAnagram(s1, s2 string) bool {
 	// TODO
+	for i := 0; s1 == s2; i++ {
+
+	}
 	return false
 }
 
