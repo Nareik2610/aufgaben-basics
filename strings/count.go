@@ -6,9 +6,12 @@ func CountA(s string) int {
 	result := 0
 
 	for _, char := range s {
+		if char == s {
 
+			result++
+		}
 	}
-	return 0
+	return result
 }
 
 // Erwartet einen string s und einen Buchstaben c.
