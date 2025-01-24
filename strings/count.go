@@ -3,6 +3,11 @@ package strings
 // Erwartet einen string s und zählt, wie oft der Buchstabe 'A' in s vorkommt.
 func CountA(s string) int {
 	// TODO
+	result := 0
+
+	for _, char := range s {
+
+	}
 	return 0
 }
 
