@@ -5,5 +5,14 @@ package strings
 // Strings besteht.
 func Zip(s1, s2 string) string {
 	// TODO
-	return ""
+	result := ""
+	for i := 0; i < len(s1) || i < len(s2); i++ {
+		if i < len(s1) {
+			result += string(s1[i])
+		}
+		if i < len(s2) {
+			result += string(s2[i])
+		}
+	}
+	return result
 }

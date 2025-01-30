@@ -3,6 +3,9 @@ package strings
 // Erwartet einen String s und liefert s rückwärts zurück.
 func Reverse(s string) string {
 	// TODO
+	for i := 0; i < n; i++ {
+
+	}
 	return ""
 }
 
